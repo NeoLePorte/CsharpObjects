@@ -1,4 +1,6 @@
-﻿namespace TreehouseDefense
+﻿using System;
+
+namespace TreehouseDefense
 {
     class Point
     {
@@ -18,6 +20,23 @@
 
             int xDiffSquared = xDiff * xDiff;
             int yDiffSquared = yDiff * yDiff;
+
+            
+
+            return (int)Math.Sqrt(xDiffSquared + yDiffSquared);
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
